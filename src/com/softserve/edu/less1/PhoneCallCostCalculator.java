@@ -16,11 +16,11 @@ public class PhoneCallCostCalculator {
         System.out.println("Enter the cost per minute c3 (double) > 0.0 ");
         c3 = sc.nextDouble();
 
-        System.out.println("Enter the duration t1 (int, in seconds) > 0");
+        System.out.println("Enter the duration t1 (int, in minutes) > 0");
         t1 = sc.nextInt();
-        System.out.println("Enter the duration t2 (int, in seconds) > 0");
+        System.out.println("Enter the duration t2 (int, in minutes) > 0");
         t2 = sc.nextInt();
-        System.out.println("Enter the duration t3 (int, in seconds) > 0");
+        System.out.println("Enter the duration t3 (int, in minutes) > 0");
         t3 = sc.nextInt();
         cost1 = c1 * t1;
         cost2 = c2 * t2;
