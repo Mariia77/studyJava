@@ -1,4 +1,4 @@
-package com.softserve.edu;
+package com.softserve.edu.less1;
 
 import java.util.Scanner;
 import static java.lang.Math.*;
