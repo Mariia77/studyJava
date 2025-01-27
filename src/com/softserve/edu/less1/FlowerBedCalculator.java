@@ -21,6 +21,7 @@ public class FlowerBedCalculator {
         else {
             System.out.println("wrong radius, restart programm");
         }
+        sc.close();
 
     }
 }

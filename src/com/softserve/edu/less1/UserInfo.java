@@ -12,7 +12,8 @@ public class UserInfo {
         name = sc.nextLine();
         System.out.println("Where do you live, " + name);
         address = sc.nextLine();
-        System.out.println("Name: "+ name+", Address: " + address);
+        System.out.println("Name: " + name + ", Address: " + address);
+        sc.close();
 
     }
 }

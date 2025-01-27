@@ -4,8 +4,12 @@ import java.util.Scanner;
 
 public class PhoneCallCostCalculator {
     public static void main(String[] args) {
-        double c1, c2, c3;
-        int t1, t2, t3;
+        double c1;
+        double c2;
+        double c3;
+        int t1;
+        int t2;
+        int t3;
         double cost1,cost2,cost3;
         double totalCost;
         Scanner sc = new Scanner(System.in);
@@ -30,6 +34,7 @@ public class PhoneCallCostCalculator {
         System.out.println("cost2 =  " + cost2);
         System.out.println("cost3 =  " + cost3);
         System.out.println("totalCost =  " + totalCost);
+        sc.close();
 
     }
 }
